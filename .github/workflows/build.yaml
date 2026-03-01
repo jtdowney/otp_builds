@@ -33,10 +33,7 @@ jobs:
       matrix:
         include:
           - pair:
-              os: macos-13
-              target: x86_64-apple-darwin
-          - pair:
-              os: macos-14
+              os: macos-15
               target: aarch64-apple-darwin
     steps:
       - uses: actions/checkout@v6.0.2
